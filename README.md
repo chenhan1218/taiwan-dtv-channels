@@ -10,7 +10,8 @@ vlc channels.conf
 ```
 
 ## Re-scan channel
+Verified on Ubuntu 16.04
 ```
 sudo apt-get install -y dvb-apps
-scan /usr/share/dvb/dvb-t/tw-All >channels.conf
+scan /usr/share/dvb/dvb-legacy/dvb-t/tw-All >channels.conf
 ```
